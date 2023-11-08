@@ -1,0 +1,46 @@
+
+* {
+   margin: auto;
+   padding: 0; 
+   box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.form {
+    width: 300px;
+    margin-top: 30px;
+}
+
+.entrada {
+    margin-bottom: 15px; 
+}
+
+label {
+    display: block; 
+    font-weight: bold;
+} 
+
+input{
+    width: 100%; 
+    padding: 5px; 
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding:5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#resultado{
+    margin-top: 20px;   
+    display: none;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Simulador de Empréstimo</h1>
+
+        <form action="" class="form" id="form">
+            <div class="entrada">
+                <label for="">Digite seu Nome:</label>
+                <input type="text" id="nome" required>
+            </div>
+
+            <div class="entrada">
+                <label for="">Data de Admissão (Ano):</label>
+                <input type="text" id="anoAdmissao" oninput="validarNumeros(this)" required>
+            </div>
+
+            <div class="entrada">
+                <label for="">Salário Atual:</label>
+                <input type="text" id="salario" oninput="validarNumeros(this)" required>
+            </div>
+
+            <div class="entrada">
+                <label for="">Valor do Empréstimo:</label>
+                <input type="text" id="emprestimo" oninput="validarNumeros(this)" required>
+            </div>
+
+            <button>Calcular Empréstimo</button>
+        </form>
+        
+
+        <div id="resultado"></div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
